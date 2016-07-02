@@ -1,12 +1,15 @@
 <div class="row">
-    <div class="row" style="margin-top:100px;">
+    <div align="center">
+        <button class="btn btn-primary" ng-click="playAgain()">Again</button>
+    </div>
+    <div class="row" style="margin-top:70px;">
         <div class="col-xs-2 text-right">
             <img class="player-image" src="/images/user1.jpg">
             <p class="player-name">Player</p>
             <p>
-                <img src="/images/cards/C5.png" height="60">
-                <img src="/images/cards/D7.png" height="60">
-                <img src="/images/cards/h3.png" height="60">
+                <img ng-src="/images/cards/{{cards[0]}}.png" height="60">
+                <img src="/images/cards/{{cards[1]}}.png" height="60">
+                <img src="/images/cards/{{cards[2]}}.png" height="60">
             </p>
         </div>
         <div class=col-xs-8 ">
@@ -18,9 +21,9 @@
     	<img class="player-image " src="/images/user1.jpg ">
     	<p class="player-name ">Player</p>
     	<p>
-                <img src="/images/cards/S8.png " height="60 ">
-                 <img src="/images/cards/H7.png " height="60 ">
-                  <img src="/images/cards/C9.png " height="60 ">
+               <img ng-src="/images/cards/{{cards[3]}}.png " height="60 ">
+                <img src="/images/cards/{{cards[4]}}.png " height="60 ">
+                <img src="/images/cards/{{cards[5]}}.png " height="60 ">
             </p>
   
     	</div>
@@ -32,9 +35,9 @@
             	<img class="player-image " src="/images/user1.jpg ">
             	<p class="player-name ">Player</p>
             	<p>
-                <img src="/images/cards/S8.png " height="60 ">
-                 <img src="/images/cards/H7.png " height="60 ">
-                  <img src="/images/cards/C9.png " height="60 ">
+               <img ng-src="/images/cards/{{cards[6]}}.png " height="60 ">
+                <img src="/images/cards/{{cards[7]}}.png " height="60 ">
+                <img src="/images/cards/{{cards[8]}}.png " height="60 ">
             </p>
   
             	</div>
@@ -42,9 +45,9 @@
             	<img class="player-image " src="/images/user1.jpg ">
             	<p class="player-name ">Player</p>
             	<p>
-                <img src="/images/cards/S8.png " height="60 ">
-                 <img src="/images/cards/H7.png " height="60 ">
-                  <img src="/images/cards/C9.png " height="60 ">
+                <img ng-src="/images/cards/{{cards[9]}}.png " height="60 ">
+                <img src="/images/cards/{{cards[10]}}.png " height="60 ">
+                <img src="/images/cards/{{cards[11]}}.png " height="60 ">
             </p>
   
             	</div>
@@ -52,9 +55,9 @@
             	<img class="player-image " src="/images/user1.jpg ">
             	<p class="player-name ">Player</p>
             	<p>
-                <img src="/images/cards/S8.png " height="60 ">
-                 <img src="/images/cards/H7.png " height="60 ">
-                  <img src="/images/cards/C9.png " height="60 ">
+                 <img ng-src="/images/cards/{{cards[12]}}.png " height="60 ">
+                <img src="/images/cards/{{cards[13]}}.png " height="60 ">
+                <img src="/images/cards/{{cards[14]}}.png " height="60 ">
             </p>
   
             	</div>
