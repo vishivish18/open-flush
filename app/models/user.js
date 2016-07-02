@@ -1,53 +1,53 @@
-var db = require('./db')
-var user = db.Schema({
-    name: {
-        type: String,
-        required: true
-    },
-    username: {
-        type: String,
-        required: true,
-        unique: true
-    },
-    password: {
-        type: String,
-        required: true,
-        select: false
-    },
-    verified: {
-        type: Boolean,
-        default: false
-
-    }
-
-})
+// var db = require('./db')
 // var user = db.Schema({
-
-//     local            : {
-//         email        : String,
-//         password     : String,
+//     name: {
+//         type: String,
+//         required: true
 //     },
-//     facebook         : {
-//         id           : String,
-//         token        : String,
-//         email        : String,
-//         name         : String
+//     username: {
+//         type: String,
+//         required: true,
+//         unique: true
 //     },
-//     twitter          : {
-//         id           : String,
-//         token        : String,
-//         displayName  : String,
-//         username     : String
+//     password: {
+//         type: String,
+//         required: true,
+//         select: false
 //     },
-//     google           : {
-//         id           : String,
-//         token        : String,
-//         email        : String,
-//         name         : String,
-//         photo        : String
+//     verified: {
+//         type: Boolean,
+//         default: false
 
 //     }
 
-// });
+// })
+// // var user = db.Schema({
 
-module.exports = db.model('User', user)
+// //     local            : {
+// //         email        : String,
+// //         password     : String,
+// //     },
+// //     facebook         : {
+// //         id           : String,
+// //         token        : String,
+// //         email        : String,
+// //         name         : String
+// //     },
+// //     twitter          : {
+// //         id           : String,
+// //         token        : String,
+// //         displayName  : String,
+// //         username     : String
+// //     },
+// //     google           : {
+// //         id           : String,
+// //         token        : String,
+// //         email        : String,
+// //         name         : String,
+// //         photo        : String
+
+// //     }
+
+// // });
+
+// module.exports = db.model('User', user)

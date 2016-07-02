@@ -1,45 +1,29 @@
 {
   "name": "open-flush",
-  "version": "0.0.1",
-  "description": "Open Flush",
+  "version": "1.0.0",
+  "description": "Online Game",
   "main": "app.js",
-  "engines": {
-    "node": "4.1.1"
-  },
   "dependencies": {
-    "angular-ui-router": "~0.2.15",
     "bcryptjs": "^2.3.0",
-    "body-parser": "~1.13.2",
-    "express": "~4.13.1",
-    "express-session": "^1.13.0",
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-ng-annotate": "^1.1.0",
-    "gulp-nodemon": "^2.0.3",
-    "gulp-sourcemaps": "^1.5.2",
-    "gulp-stylus": "^2.0.5",
-    "gulp-uglify": "^1.2.0",
-    "jwt-simple": "^0.3.0",
-    "lodash": "^3.10.0",
-    "mongoose": "~4.2.4",
-    "morgan": "~1.6.1"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jwt-simple": "^0.5.0"
   },
+  "devDependencies": {},
   "scripts": {
-    "start": "gulp dev"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/vishivish18/open-flush.git"
+    "url": "git+https://github.com/vishivish18/open-flush.git"
   },
   "keywords": [
-    "Mongo",
-    "Express",
-    "Angular",
-    "Node"
+    "MEAN"
   ],
-  "author": "vishalR",
-  "license": "BSD-2-Clause",
+  "author": "VishalR",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/vishivish18/open-flush/issues"
-  }
+  },
+  "homepage": "https://github.com/vishivish18/open-flush#readme"
 }
